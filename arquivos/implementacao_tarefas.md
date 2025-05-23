@@ -31,10 +31,12 @@ A troca de contexto (context switch) é o mecanismo pelo qual um sistema operaci
 3. **Escalonamento** 🎯: Escalonador decide a próxima tarefa (opcional, se não houver fila ordenada).  
 4. **Restauração** 🔄: Despachante carrega o contexto da nova tarefa do TCB para o processador.  
 
-**Fórmula de Eficiência:** 📊  
-\[ \mathcal{E} = \frac{t_q}{t_q + t_{tc}} \]  
-- \( t_q \): Tempo do quantum.  
-- \( t_{tc} \): Tempo da troca de contexto.  
+**Fórmula de Eficiência:** 📊
+```math
+\mathcal{E} = \frac{t_q}{t_q + t_{tc}}
+```
+- q: Tempo do quantum.  
+- tc: Tempo da troca de contexto.    
 
 **Impacto:**  
 Quantum curto → Mais trocas → Menor eficiência (ex: 1ms quantum → 91% eficiência).  
