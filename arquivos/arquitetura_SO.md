@@ -214,6 +214,8 @@ Como um **foguete sob medida**:
 | Exonúcleo       | Apps gerenciam hardware          | ⚡⚡⚡⚡⚡ | ⚠️          | ExOS         |  
 | Uninúcleo       | SO + app em único binário        | ⚡⚡⚡⚡⚡ | ✅          | MirageOS     |  
 
+<br>
+
 ## ❓ **Exercícios com Respostas**  
 
 ### 1. **Qual arquitetura exige que aplicações implementem seus próprios drivers?**  
